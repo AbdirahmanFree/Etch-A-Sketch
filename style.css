@@ -1,6 +1,8 @@
 
 
 .container {
+    width: 400px;
+    height: 400px;
     display: flex;
     flex: 1 0 auto;
     flex-wrap: wrap;
@@ -9,14 +11,13 @@
     width: 100%;
     aspect-ratio: 1;
     justify-content: center;
+    border: 1px solid black;
 }
 
 
 .container div {
     box-sizing: border-box;
-    background-color: blue;
-    width: calc(100% / 24);   /* 1/16 of container width */
-    height: calc(100% / 24);  /* 1/16 of container height */
+    background-color: rgb(rgb(96, 93, 93), green, blue); 
     border: 1px solid black;
 
 }
