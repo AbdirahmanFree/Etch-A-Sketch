@@ -14,11 +14,28 @@
     border: 1px solid black;
 }
 
+.buttons {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+
+}
+
+button {
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(183, 179, 179); 
+    
+}
+
 
 .container div {
     box-sizing: border-box;
-    background-color: rgb(rgb(96, 93, 93), green, blue); 
-    border: 1px solid black;
+    background-color: rgb(198, 198, 198); 
+    border: 1px solid rgb(0, 0, 0);
 
 }
 
